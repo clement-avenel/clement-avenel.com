@@ -1,0 +1,19 @@
+html, body, .container {
+ height: 100%;
+ margin:0;
+}
+.container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+}
+.demo {
+ position: relative;
+ z-index: 9;
+ height: 100%;
+ flex: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
